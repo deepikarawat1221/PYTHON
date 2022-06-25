@@ -1,0 +1,6 @@
+num = input("enter the no.")
+#print(num)
+first = int(num[0])
+last = int(num[-1])
+sum = first + last
+print(sum)
