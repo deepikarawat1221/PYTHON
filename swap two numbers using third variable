@@ -1,0 +1,10 @@
+num = input("enter the no.")
+#print(num)
+first = int(num[0])
+last = int(num[-1])
+temp = first
+first = last
+last = temp
+
+print(first)
+print(last)
