@@ -1,0 +1,10 @@
+a = 36
+b = 120
+c = 24
+if a < b and a < c :
+   print("a is lowest")
+else:
+   if b < c:
+       print("b is lowest")
+   else:
+       print("c is lowest")
